@@ -4,6 +4,8 @@ import numpy as np
 from PIL import Image
 import tensorflow as tf
 import logging
+import pymysql
+pymysql.install_as_MySQLdb()
 
 app = Flask(__name__)
 
